@@ -27,5 +27,15 @@ class ParamsController < ApplicationController
       @message = "Congrats! You've won!"
     end
 
+
+  end
+
+
+  def form_display
+
+  end
+
+  def submit_form
+    @message = params[:message]
   end
 end
